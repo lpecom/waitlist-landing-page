@@ -26,6 +26,14 @@ const Hero = () => {
 
   return (
     <section className="xl:flex-row flex-col flex items-center justify-center gap-7 sm:gap-14">
+      <style>
+        {`
+          .imgb {
+            box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+            width: 20vh;
+          }
+        `}
+      </style>
       <div className="xl:w-5/12 w-11/12 xl:my-40 mt-40 flex flex-col gap-6">
         <h1 className="min-w-[73%] sm:min-w-[300px] xl:min-w-[490px] xl:w-10/12 w-8/12 font-normal text-2xl sm:text-4xl text-black relative z-40">
           {title.text}
@@ -41,11 +49,11 @@ const Hero = () => {
         <Form />
       </div>
       <Image
-        src="/hero.jpg"
+        src="/lolol.png"
         alt="hero"
-        width={648}
-        height={500}
-        className="rounded-sm xl:w-6/12 xl:max-w-[648px] w-11/12 h-max"
+        width={374}
+        height={815}
+        className="rounded-sm xl:w-6/12 xl:max-w-[648px] w-11/12 h-max imgb"
       />
     </section>
   );
