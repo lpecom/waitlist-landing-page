@@ -28,7 +28,7 @@ const Header = () => {
                 rel="noopener noreferrer"
               >
                 Registrar
-              </a>
+              </a>  
             </Link>
           </li>
         </ul>
